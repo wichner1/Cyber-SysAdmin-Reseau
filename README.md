@@ -1,5 +1,5 @@
 # Cyber-SysAdmin-Reseau
-Portfolio de démonstration de LABs mis en œuvre, servant à simuler des scénarios d'entreprise concrets en administration réseau, systèmes et cybersécurité.
+Portfolio de démonstration de LABs mis en œuvre, servant à simuler des scénarios d'entreprise concrets en administration réseau, systèmes et cybersécurité. Avec Systeme Hybride  AD synchro avec Entra ID via Azure Adconnect (ADDConnect)
 
 Architechture Reseau mise en place 
 j'utilise un 10.10.0.0  dans le but d'utiliser le 3ème octet pour faire correspondre directement le numéro de VLAN pour une convention simple, lisible et très efficace pour la gestion quotidienne 
@@ -14,7 +14,7 @@ VLAN 10  TI (Informatique) 10.10.10.1 à 10.10.10.254  255.255.255.0 (/24)  10.1
 
 se sera la meme chose avec mes autres VLANs
 
-vlan20 Finance & Comptabilité
+vlan20 Finance & Comptabilité  10.10.20.1 à 10.10.20.254  255.255.255.0 (/24)  10.10.20.1 ou .254
 
 vlan30 Logistique
 
@@ -29,4 +29,8 @@ vlan70 Wifi
 vlan90 Wifi-Guest
 
 VLAN 100 – Gestion
+
+les serveurs qui sont utilisees :
+Active directory (En Premise )
+( Fichier, Azure Adconnect, deux autre DC, Serveur de Sauvgarde,Gestionnaire de mot de passe ( Linux acces interface Web) 
 <img width="1408" height="768" alt="Gemini_Generated_Image_r0ckavr0ckavr0ck" src="https://github.com/user-attachments/assets/01533381-71fc-4b3e-8454-3f8a910a66d8" />
